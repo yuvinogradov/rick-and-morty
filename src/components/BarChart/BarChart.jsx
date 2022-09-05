@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import './BarChart.css';
 
@@ -9,8 +8,6 @@ function BarChart({ data }) {
 
   // Distance between each bar
   const itemMargin = 50;
-
-  const dataLength = data.length;
 
   // Normalize data, add color
   const messagedData = data.map((datum, item) => ({
